@@ -2,32 +2,28 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login</title>
+<title>Register</title>
 </head>
-<body>
+<body>	
 	<center>
 		<h3>Welcome to eStore</h3>
-		<h3>Login here with your details:</h3>
-		<form action="login" method="post">
+		<h3>Register here with your details:</h3>
+		<form action="register" method="get">
+			<b>Enter your Name</b><br>
+			<input type="text" name="txtName" placeholder="eg: John Watson"><br>
+		
 			<b>Enter your Email</b><br>
 			<input type="text" name="txtEmail" placeholder="eg: john@example.com"><br>
+			
+			<b>Enter your Phone</b><br>
+			<input type="number" name="txtPhone" placeholder="eg: 919988776655"><br>
 			
 			<b>Enter your password</b><br>
 			<input type="password" name="txtPassword" placeholder="min 6 characters"><br><br>
 			
-			<input type="submit" value="LOGIN">
+			<input type="submit" value="REGISTER">
 			
 		</form>
-		
-		<br>
-		
-		<a href="register.html">New User? Register Here</a>
-		
-		<br>
-		
-		<a href="user">User Servlet</a>
 	</center>
-	
-	<!-- <a href="welcome">Welcome Servlet</a> -->
 </body>
 </html>
